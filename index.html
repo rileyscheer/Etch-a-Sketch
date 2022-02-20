@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="header">Etch a Sketch</h1>
+    <div class="input-line">
+        <button class="randcolor">Random Color</button>
+        <div class="input">
+            <input type="range" value="16" class="slider" min = "1" max = "64">
+            <h4></h4>
+        </div>
+        <button class="clear">Clear</button>
+    </div>
+    <div class="backdrop">
+        <div class="container"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
